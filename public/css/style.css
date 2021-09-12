@@ -1,0 +1,146 @@
+@import url("https://use.typekit.net/xxxxxxx.css");
+
+html,
+body {
+  font-family: calibri, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-text {
+  font-family: calibri, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #f9b8b0;
+  font-size: 14px;
+}
+
+.author {
+  text-decoration: none !important;
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+.alink {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.alink {
+  color: #f9b8b0;
+}
+
+.nav-link {
+  color: #f9b8b0 !important;
+}
+
+.alink ul {
+  float: left;
+}
+
+a,
+a:hover {
+  color: #f9b8b0;
+}
+
+.btn,
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.showcase-img {
+  height: auto;
+  width: 800px;
+  margin-bottom: 5rem;
+}
+.logo-img {
+  height: auto;
+  width: 100px;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center {
+  text-align: center;
+}
+
+.centered-container {
+  text-align: center;
+}
+
+.centered-container p {
+  margin-bottom: 30px;
+}
+
+.homepage-footer {
+  position: absolute;
+  bottom: 2vh;
+  left: 0;
+  right: 0;
+}
+
+img.move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .showcase-img {
+    width: 600px; /* ie8 */
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .showcase-img {
+    width: 400px; /* ie8 */
+  }
+}
